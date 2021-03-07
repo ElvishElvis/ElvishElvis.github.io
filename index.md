@@ -68,15 +68,15 @@ Our team's final goal is to create an interactive interface that will allow the 
 
 
 ## <a name = "References" />References:
-[1] [Gazebo Simulator]  <br/>
-[2] [TurtleBot Robots wiki]  <br/>
-[3] [F1 Tenth Racing] <br/>
-[4] [G-Mapping wiki] <br/>
-[5] [RViz wiki]   <br/>
-[6] [Roslibjs wiki]  <br/>
-[7] [A. A. Zhilenkov and I. R. Epifantsev. "Problems of a trajectory planning in autonomous navigation systems based on technical vision and AI." 2018,] <br/>
-[8] [Motion Planning for Urban Driving using RRT,] <br/>
-[9] [D. Ma and N. Zhou. “Web-Based Robot Control and Monitoring.” 2019,]  <br/>
+* [Gazebo Simulator]  <br/>
+* [TurtleBot Robots wiki]  <br/>
+* [F1 Tenth Racing] <br/>
+* [G-Mapping wiki] <br/>
+* [RViz wiki]   <br/>
+* [Roslibjs wiki]  <br/>
+* [A. A. Zhilenkov and I. R. Epifantsev. "Problems of a trajectory planning in autonomous navigation systems based on technical vision and AI." 2018,] <br/>
+* [Motion Planning for Urban Driving using RRT,] <br/>
+* [D. Ma and N. Zhou. “Web-Based Robot Control and Monitoring.” 2019,]  <br/>
 
 [Gazebo Simulator]: http://gazebosim.org/tutorials?tut=ros_overview
 [TurtleBot Robots wiki]:http://wiki.ros.org/Robots/TurtleBot
