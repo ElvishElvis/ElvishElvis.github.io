@@ -1,4 +1,5 @@
-Project Repo: [https://github.com/dannyluo12/Autonomous_robot_data_visualization_and_interface](https://github.com/dannyluo12/Autonomous_robot_data_visualization_and_interface)
+The contents of this project can be found in the following github repo: <br/>
+[https://github.com/dannyluo12/Autonomous_robot_data_visualization_and_interface](https://github.com/dannyluo12/Autonomous_robot_data_visualization_and_interface)
 
 
 ## Catalog
@@ -67,23 +68,23 @@ Our team's final goal is to create an interactive interface that will allow the 
 
 
 ## <a name = "References" />References:
-* [1. Gazebo Simulator]  <br/>
-* [2. TurtleBot Robots wiki]  <br/>
-* [3. F1 Tenth Racing] <br/>
-* [4. G-Mapping wiki] <br/>
-* [5. RViz wiki]   <br/>
-* [6. Roslibjs wiki]  <br/>
-* [7. A. A. Zhilenkov and I. R. Epifantsev. "Problems of a trajectory planning in autonomous navigation systems based on technical vision and AI." 2018,] <br/>
-* [8. Motion Planning for Urban Driving using RRT,] <br/>
-* [9. D. Ma and N. Zhou. “Web-Based Robot Control and Monitoring.” 2019,]  <br/>
+[1] [Gazebo Simulator]  <br/>
+[2] [TurtleBot Robots wiki]  <br/>
+[3] [F1 Tenth Racing] <br/>
+[4] [G-Mapping wiki] <br/>
+[5] [RViz wiki]   <br/>
+[6] [Roslibjs wiki]  <br/>
+[7] [A. A. Zhilenkov and I. R. Epifantsev. "Problems of a trajectory planning in autonomous navigation systems based on technical vision and AI." 2018,] <br/>
+[8] [Motion Planning for Urban Driving using RRT,] <br/>
+[9] [D. Ma and N. Zhou. “Web-Based Robot Control and Monitoring.” 2019,]  <br/>
 
-[1. Gazebo Simulator]: http://gazebosim.org/tutorials?tut=ros_overview
-[2. TurtleBot Robots wiki]:http://wiki.ros.org/Robots/TurtleBot
-[3. F1 Tenth Racing]:https://f1tenth.dev/
-[4. G-Mapping wiki]: http://wiki.ros.org/gmapping
-[5. RViz wiki]: http://wiki.ros.org/rviz
-[6. Roslibjs wiki]: http://wiki.ros.org/roslibjs
-[7. A. A. Zhilenkov and I. R. Epifantsev. "Problems of a trajectory planning in autonomous navigation systems based on technical vision and AI." 2018,]: https://ieeexplore.ieee.org/abstract/document/8317265
-[8. Motion Planning for Urban Driving using RRT,]: http://acl.mit.edu/papers/KuwataIROS08.pdf
-[9. D. Ma and N. Zhou. “Web-Based Robot Control and Monitoring.” 2019,]: http://www.cs.binghamton.edu/~szhang/teaching/18spring/reports/Luo-Ma-Zhou.pdf
+[Gazebo Simulator]: http://gazebosim.org/tutorials?tut=ros_overview
+[TurtleBot Robots wiki]:http://wiki.ros.org/Robots/TurtleBot
+[F1 Tenth Racing]:https://f1tenth.dev/
+[G-Mapping wiki]: http://wiki.ros.org/gmapping
+[RViz wiki]: http://wiki.ros.org/rviz
+[Roslibjs wiki]: http://wiki.ros.org/roslibjs
+[A. A. Zhilenkov and I. R. Epifantsev. "Problems of a trajectory planning in autonomous navigation systems based on technical vision and AI." 2018,]: https://ieeexplore.ieee.org/abstract/document/8317265
+[Motion Planning for Urban Driving using RRT,]: http://acl.mit.edu/papers/KuwataIROS08.pdf
+[D. Ma and N. Zhou. “Web-Based Robot Control and Monitoring.” 2019,]: http://www.cs.binghamton.edu/~szhang/teaching/18spring/reports/Luo-Ma-Zhou.pdf
 
