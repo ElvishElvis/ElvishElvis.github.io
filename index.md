@@ -13,7 +13,7 @@ The contents of this project can be found in the following github repo: <br/>
 
 
 ## <a name = "goal" />Project Goals:
-The goal of this project is to create visualizations and an interactive interface to enable our team and other autonomous navigation teams to be successful in autonomous navigation applications. 
+The goal of this project is to create visualizations and an interactive interface to enable our team and other autonomous navigation teams to be successful in autonomous navigation applications. By doing so, we hope to enhance the users racing performance and debugging capabilities when working with autonomous vehicles. 
 
 
 ## <a name = "Context" />Context:
@@ -32,6 +32,20 @@ Below, a gif is provided to visualize how the RRT* algorithm will navigate from 
 <div class="row">
   <div class="column">
     <img src="images/A_star_test_track.gif" style="width:75%; height=75%">
+  </div>
+</div>
+
+Below, an image of the Thunderhill track utilized to run RRT* navigation algorithm is displayed:
+<div class="row">
+  <div class="column">
+    <img src="images/thunderhill_cropped_map.PNG" style="width:75%; height=75%">
+  </div>
+</div>
+
+Below, a gif is provided to visualize how the RRT* algorithm will navigate from one point to another on the Thunderhill track:
+<div class="row">
+  <div class="column">
+    <img src="images/rrt_star_thunderhill_cropped_gif.gif" style="width:75%; height=75%">
   </div>
 </div>
 
