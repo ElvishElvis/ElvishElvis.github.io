@@ -16,32 +16,23 @@ The goal of this project is to create visualizations and an interactive interfac
 
 
 ## <a name = "Context" />Context:
-Autonomous navigation requires a wide-range of engineering expertise and a well-developed technological architecture in order to operate. The focus of this project is to illustrate the significance of data visualizations and an interactive interface with regards to autonomous navigation in a racing environment. In order to yield the best results in an autonomous navigation race, the users must be able to understand the behavior of the vehicle when training navigation models and during the live race. To address these concerns, teams working on autonomous navigation must be able to visualize and interact with the robot. Different algorithms such as A* search and RRT* (Rapidly-exploring random tree) will be implemented to create path planning and obstacle avoidance. Visualizations of these respective navigation algorithms through a user interface will help to enhance model testing, debug unexpected behavior, and improve upon existing autonomous navigation models. Simulations with the most optimal navigation algorithm will also be constructed to demonstrate the functionality of the interactive interface. 
+Autonomous navigation requires a wide-range of engineering expertise and a well-developed technological architecture in order to operate. The focus of this project is to illustrate the significance of data visualizations and an interactive interface with regards to autonomous navigation in a racing environment. In order to yield the best results in an autonomous navigation race, the users must be able to understand the behavior of the vehicle when training navigation models and during the live race. To address these concerns, teams working on autonomous navigation must be able to visualize and interact with the robot. Detailed in the formal [report](https://github.com/dannyluo12/Autonomous_robot_data_visualization_and_interface/blob/main/references/Data_Visualizations_and_Interface_For_Autonomous_Robots_Report_Final.pdf), it is evalulated that RRT* (Rapidly-exploring random tree) is the best performing navigation algorithm. RRT* is therefore implemented for path planning and obstacle avoidance objectives. Visualizations of the RRT* algorithm and an interactive user interface will help to enhance model testing, debug unexpected behavior, and improve upon existing autonomous navigation models. Simulations with the most optimal navigation algorithm will also be constructed to demonstrate the functionality of the interactive interface. 
 
 
 ## <a name = "Visualizations" />Visualizations:
-Below, an image of the test track utilized to test navigation algorithms is displayed:
-<div class="row">
-  <div class="column">
-    <img src="images/test_track.PNG" style="width:75%; height=75%">
-  </div>
-</div>
+RRT* algorithm is selected to be the best performing navigation algorithm among the ones tested. Please refer to this [report](https://github.com/dannyluo12/Autonomous_robot_data_visualization_and_interface/blob/main/references/Data_Visualizations_and_Interface_For_Autonomous_Robots_Report_Final.pdf) for further details. The implementation of these algorithms operate on masked images (grayscale images). Below two 'gif' files can be observed that detail how the RRT* algorithm is being computer on two different maps. 
+* The first gif shows a test_track map that encompasses wider and varying widths of lane dimenions and was used to fine tune the model. Because of the wider lanes, it is easier to notice each individual node and path from the RRT* algorithm. 
+* The second gif shows the final masked 2 mile Thunderhill track. This is the track that was intended to be raced on. Nevertheless, the gif demonstrates how RRT* operates and will eventually display the path taken by the autonomous robot via the blue line.
 
-Below, a gif is provided to visualize how the RRT* algorithm will navigate from one point to another:
+Below, the first gif is provided to visualize how the RRT* algorithm will navigate from one point to another on the test_track:
 <div class="row">
   <div class="column">
     <img src="images/A_star_test_track.gif" style="width:75%; height=75%">
   </div>
 </div>
+<br/>
 
-Below, an image of the Thunderhill track utilized to run RRT* navigation algorithm is displayed:
-<div class="row">
-  <div class="column">
-    <img src="images/thunderhill_cropped_map.PNG" style="width:75%; height=75%">
-  </div>
-</div>
-
-Below, a gif is provided to visualize how the RRT* algorithm will navigate from one point to another on the Thunderhill track:
+Below, the second gif is provided to visualize how the RRT* algorithm will navigate from one point to another on the Thunderhill track:
 <div class="row">
   <div class="column">
     <img src="images/rrt_star_thunderhill_cropped_gif.gif" style="width:75%; height=75%">
@@ -56,9 +47,11 @@ Below, a demonstration video of the interface is displayed. The top left box dis
 
 
 ## <a name = "Results" />Results & Impact: 
-In this project, our group successfuly integrated a racing track simulation using the Gazebo Simulator that mirrors a real-life track. By using the depth camera and lidar navigation sensors, we were able to implement two path planning and obstacle avoidance algorithms in A* and RRT* inside the simulated track. The performance of these algorithms were tested based on different metrics, and these algorithms were also able to visualize their performance on real-life racing track images. We also implemented an interactive interface that will allow the user to control the vehicle and view significant sensory information obtained from the vehicle during autonomous navigation while also allowing the user to move the vehicle from its initial position to the final desination with a press of a button. This was achieved by displaying different real-time sensory data, creating a platform for the user to montor the path planning algorithm, and thus allowing the user to autonomously navigate the vehicle with ease.
+In this project, our group successfuly integrated a racing track simulation using the Gazebo Simulator that mirrors a real-life track. By using the depth camera and lidar navigation sensors, we were able to implement two path planning and obstacle avoidance algorithms in A* and RRT* inside the simulated track. The performance of these algorithms were tested based on different metrics, and these algorithms were also able to visualize their performance on real-life racing track images. We also implemented an interactive interface that will allow the user to control the vehicle and view significant sensory information obtained from the vehicle during autonomous navigation while also allowing the user to move the vehicle from its initial position to the final desination with a press of a button. This was achieved by displaying different real-time sensory data and creating a platform for the user to montor the path planning algorithm. The significant impact of the visualizations and interactive interface is that they serve as tools to help users improve model testing, debugging unexpected behavior, and build upon existing autonomous navigation models.
 
 ## <a name = "Conclusion" />Conclusion:
+Our goal for this project was to create visualizations and an interactive interface that serves the users in enhancing model testing, debugging unexpected behavior, and providing a tool to build upon exisitng navigation models. The results were highlighted, but for more details, please visit this [repository](https://github.com/dannyluo12/Autonomous_robot_data_visualization_and_interface) to learn more and run the project.  <br/>
+
 Future improvements to the interactive interface currently include optimizing visualizations to be more clear, subscribe to more nodes to receive more input data, and test potential latency with larger datasets or streams of data. Currently, several plots and tools on the interactive interface contain data that is self generated on a small scale, often referred to as ‘dummy data’. Future ambitions include implementing the interface with more advanced datasets and streams of live input data.
 
 
