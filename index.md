@@ -125,7 +125,7 @@ Our team's final goal is to create an interactive interface that will allow the 
 [HTML]: https://html.spec.whatwg.org/
 [Javascript]: https://www.javascript.com/
 [Thunderhill Racing Track]: http://selfracingcars.com/
-[F1 Tenth Racing]:https://f1tenth.dev/
+[F1 Tenth Racing Track]:https://f1tenth.dev/
 [Web Video Server]: http://wiki.ros.org/web_video_server
 [Adaptive Monte Carlo Localization (AMCL)]: http://wiki.ros.org/amcl
 [A. A. Zhilenkov and I. R. Epifantsev. "Problems of a trajectory planning in autonomous navigation systems based on technical vision and AI." 2018]: https://ieeexplore.ieee.org/abstract/document/8317265
