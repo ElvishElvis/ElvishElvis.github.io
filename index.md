@@ -50,7 +50,7 @@ Below, a gif is provided to visualize how the RRT* algorithm will navigate from 
 
 
 ## <a name = "Interface" />Simulations & Interface:
-Live navigation sensors such as vehicle's speed, camera image, current position are displayed for the user as well as the visualization of the RRT* algorithm that shows the most efficient navigation path for the vehicle. If the user inputs destination coordinates inside the interface, it will autonomously navigate the vehicle with the RRT* algorith.<br /><br/ >
+Live navigation sensors such as vehicle's speed, camera image, current position are displayed for the user as well as the visualization of the RRT* algorithm that shows the most efficient navigation path for the vehicle. If the user inputs destination coordinates inside the interface, it will autonomously navigate the vehicle with the RRT* algorithm.<br />
 Below, a demonstration video of the interface is displayed.<br/>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nUsRP3SFIew" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
