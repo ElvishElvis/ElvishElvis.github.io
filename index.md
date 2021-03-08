@@ -20,7 +20,7 @@ Autonomous navigation requires a wide-range of engineering expertise and a well-
 
 
 ## <a name = "Visualizations" />Visualizations:
-RRT* algorithm is selected to be the best performing navigation algorithm among the ones tested. Please refer to this [report](https://github.com/dannyluo12/Autonomous_robot_data_visualization_and_interface/blob/main/references/Data_Visualizations_and_Interface_For_Autonomous_Robots_Report_Final.pdf) for further details. The implementation of these algorithms operate on masked images (grayscale images). Below two 'gif' files can be observed that detail how the RRT* algorithm is being computer on two different maps. 
+RRT* algorithm is selected to be the best performing navigation algorithm among the ones tested. Please refer to this [report](https://github.com/dannyluo12/Autonomous_robot_data_visualization_and_interface/blob/main/references/Data_Visualizations_and_Interface_For_Autonomous_Robots_Report_Final.pdf) for further details. The implementation of these algorithms operate on masked images (grayscale images). Below two "gif" files can be observed that detail how the RRT* algorithm is being computer on two different maps. 
 * The first gif shows a test_track map that encompasses wider and varying widths of lane dimenions and was used to fine tune the model. Because of the wider lanes, it is easier to notice each individual node and path from the RRT* algorithm. 
 * The second gif shows the final masked 2 mile Thunderhill track. This is the track that was intended to be raced on. Nevertheless, the gif demonstrates how RRT* operates and will eventually display the path taken by the autonomous robot via the blue line.
 
