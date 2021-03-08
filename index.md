@@ -11,26 +11,12 @@ The contents of this project can be found in the following github repo: <br/>
 * [Conclusion](#Conclusion)
 * [References](#References)
 
-## Video:
-Below, a youtube video of interface demo is displayed: <br/>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nUsRP3SFIew" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Below, a youtube video of interface demo (input position) is displayed: <br/>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GzUygh2_3e4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Below, a youtube video of RViz navigation demo is displayed: <br/>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QhUCZs9HNRg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Below, a youtube video of RRT* navigation demo is displayed: <br/>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wuAvyCGEBFU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 ## <a name = "goal" />Project Goals:
-The goal of this project is to create visualizations and an interactive interface to enable our team and other autonomous navigation teams to be successful in autonomous navigation applications. By doing so, we hope to enhance the users racing performance and debugging capabilities when working with autonomous vehicles. 
+The goal of this project is to create visualizations and an interactive interface to enable users to be successful in autonomous navigation applications. By doing so, we hope to enhance the users racing performance and debugging capabilities when working with autonomous vehicles. 
 
 
 ## <a name = "Context" />Context:
-Path planning and obstacle avoidance are important aspects of autonomous driving with regards to efficient routing and passenger safety. In order to travel from one point to another, GPS, IMU, and other sensors/applications have to work in unison in order to achieve this goal. Along the distance traveled, it is highly probable that obstacles will occur, deterring the original path intended for the vehicle to best travel. In order to address these issues, teams working on autonomous navigation must be able to visualize and interact with the robot. Different algorithms such as A* and RRT* are implemented to create path planning and obstacle avoidance. Visualizations of these respective algorithms and a user interface to send/receive commands will help to perform better tests, debug unexpected behavior, and improve upon existing autonomous navigation models. Using a controlled map with simulated obstacles, generated through a gazebo simulation, visualizations of the path planning algorithms will be shown, and their efficiencies will be discussed.
+Autonomous navigation requires a wide-range of engineering expertise and a well-developed technological architecture in order to operate. The focus of this project is to illustrate the significance of data visualizations and an interactive interface with regards to autonomous navigation in a racing environment. In order to yield the best results in an autonomous navigation race, the users must be able to understand the behavior of the vehicle when training navigation models and during the live race. To address these concerns, teams working on autonomous navigation must be able to visualize and interact with the robot. Different algorithms such as A* search and RRT* (Rapidly-exploring random tree) are implemented to create path planning and obstacle avoidance. Visualizations of these respective navigation algorithms and a user interface that allows the user to navigate the robot and view real-time sensory data will help to enhance model testing, debug unexpected behavior, and improve upon existing autonomous navigation models. Simulations with the most optimal navigation algorithm will also be run to demonstrate the functionality of the interactive interface. 
 
 
 ## <a name = "Visualizations" />Visualizations:
@@ -64,26 +50,11 @@ Below, a gif is provided to visualize how the RRT* algorithm will navigate from 
 
 
 ## <a name = "Interface" />Simulations & Interface:
-Below, an image of the RRT* algorithm tested in Gazebo simulator:
-<div class="row">
-  <div class="column">
-    <img src="images/rrt_gazebo.PNG" style="width:85%; height=85%">
-  </div>
-</div>
+Below, a demonstration video of the interface is displayed: <br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nUsRP3SFIew" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Below, an image of the A* algorithm tested in Gazebo simulator:
-<div class="row">
-  <div class="column">
-    <img src="images/astar_gazebo.PNG" style="width:85%; height=85%">
-  </div>
-</div>
-
-Below, an image of the Interactive interface website:
-<div class="row">
-  <div class="column">
-    <img src="images/interface_final.png" style="width:85%; height=85%">
-  </div>
-</div>
+Below, a demonstration video of interface demo (input position) is displayed: <br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GzUygh2_3e4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## <a name = "Results" />Results & Impact: 
