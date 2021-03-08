@@ -52,7 +52,6 @@ Below, a gif is provided to visualize how the RRT* algorithm will navigate from 
 ## <a name = "Interface" />Simulations & Interface:
 Below, a demonstration video of the interface is displayed. The top left box displays live navigation sensors such as vehicle's speed, battery status, IMU, and orientation for the user to view. The top right boxes display the visualization of the RRT* algorithm that shows the most efficient navigation path for the vehicle along with a real-time image that the vehicle's depth camera is displaying. In the "Navigate Robot" section, if the user inputs destination coordinates inside the interface, it will autonomously navigate the vehicle with the RRT* algorithm. The "RosBridge Subscribe" section displays the ROS topics that the interface is currently subscribed to. The "Robot Position" section displays real-time text data of the vehicle's current x, y, z positions on the simulated racetrack. <br />
 
-Below, a demonstration video of the interface is displayed.<br/>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nUsRP3SFIew" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
