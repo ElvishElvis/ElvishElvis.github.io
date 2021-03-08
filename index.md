@@ -13,9 +13,17 @@ The contents of this project can be found in the following github repo: <br/>
 
 ## Video:
 Below, a youtube video of interface demo is displayed: <br/>
-[![](http://img.youtube.com/vi/GzUygh2_3e4/0.jpg)](http://www.youtube.com/watch?v=GzUygh2_3e4 "Interface Demo (Input Position)")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nUsRP3SFIew" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Below, a youtube video of interface demo (input position) is displayed: <br/>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GzUygh2_3e4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Below, a youtube video of RViz navigation demo is displayed: <br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QhUCZs9HNRg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Below, a youtube video of RRT* navigation demo is displayed: <br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wuAvyCGEBFU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## <a name = "goal" />Project Goals:
 The goal of this project is to create visualizations and an interactive interface to enable our team and other autonomous navigation teams to be successful in autonomous navigation applications. By doing so, we hope to enhance the users racing performance and debugging capabilities when working with autonomous vehicles. 
