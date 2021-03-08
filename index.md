@@ -95,23 +95,40 @@ Our team's final goal is to create an interactive interface that will allow the 
 
 
 ## <a name = "References" />References:
-* [Gazebo Simulator]  <br/>
-* [TurtleBot Robots wiki]  <br/>
-* [F1 Tenth Racing] <br/>
-* [G-Mapping wiki] <br/>
-* [RViz wiki]   <br/>
-* [Roslibjs wiki]  <br/>
-* [A. A. Zhilenkov and I. R. Epifantsev. "Problems of a trajectory planning in autonomous navigation systems based on technical vision and AI." 2018,] <br/>
-* [Motion Planning for Urban Driving using RRT,] <br/>
-* [D. Ma and N. Zhou. “Web-Based Robot Control and Monitoring.” 2019,]  <br/>
+* [Gazebo Simulator] <br/>
+* [TurtleBot Robots] <br/>
+* [UCSD Racing Track] <br/>
+* [G-Mapping] <br/>
+* [RViz] <br/>
+* [Python] <br/>
+* [CV2] <br/>
+* [Rosbridge] <br/>
+* [HTML] <br/>
+* [Javascript] <br/>
+* [Thunderhill Racing Track] <br/>
+* [F1 Tenth Racing Track] <br/>
+* [Web Video Server] <br/>
+* [Adaptive Monte Carlo Localization (AMCL)] <br/>
+* [A. A. Zhilenkov and I. R. Epifantsev. "Problems of a trajectory planning in autonomous navigation systems based on technical vision and AI." 2018] <br/>
+* [Motion Planning for Urban Driving using RRT] <br/>
+* [D. Ma and N. Zhou. “Web-Based Robot Control and Monitoring.” 2019]  <br/>
+* [Calisi, Daniele and Nardi, Daniele. “Performance   evaluation of pure-motion tasks for mobile robots with respect to world models.” 2009] <br/>
 
 [Gazebo Simulator]: http://gazebosim.org/tutorials?tut=ros_overview
-[TurtleBot Robots wiki]:http://wiki.ros.org/Robots/TurtleBot
+[TurtleBot Robots]:http://wiki.ros.org/Robots/TurtleBot
+[UCSD Racing Track]: http://github.com/garrettgibo/ucsd_f1tenth_simulator
+[G-Mapping]: http://wiki.ros.org/gmapping
+[RViz]: http://wiki.ros.org/rviz
+[Python]: https://www.python.org/
+[CV2]: https://pypi.org/project/opencv-python/
+[Rosbridge]: http://wiki.ros.org/rosbridge_suite
+[HTML]: https://html.spec.whatwg.org/
+[Javascript]: https://www.javascript.com/
+[Thunderhill Racing Track]: http://selfracingcars.com/
 [F1 Tenth Racing]:https://f1tenth.dev/
-[G-Mapping wiki]: http://wiki.ros.org/gmapping
-[RViz wiki]: http://wiki.ros.org/rviz
-[Roslibjs wiki]: http://wiki.ros.org/roslibjs
-[A. A. Zhilenkov and I. R. Epifantsev. "Problems of a trajectory planning in autonomous navigation systems based on technical vision and AI." 2018,]: https://ieeexplore.ieee.org/abstract/document/8317265
-[Motion Planning for Urban Driving using RRT,]: http://acl.mit.edu/papers/KuwataIROS08.pdf
-[D. Ma and N. Zhou. “Web-Based Robot Control and Monitoring.” 2019,]: http://www.cs.binghamton.edu/~szhang/teaching/18spring/reports/Luo-Ma-Zhou.pdf
-
+[Web Video Server]: http://wiki.ros.org/web_video_server
+[Adaptive Monte Carlo Localization (AMCL)]: http://wiki.ros.org/amcl
+[A. A. Zhilenkov and I. R. Epifantsev. "Problems of a trajectory planning in autonomous navigation systems based on technical vision and AI." 2018]: https://ieeexplore.ieee.org/abstract/document/8317265
+[Motion Planning for Urban Driving using RRT]: http://acl.mit.edu/papers/KuwataIROS08.pdf
+[D. Ma and N. Zhou. “Web-Based Robot Control and Monitoring.” 2019]: http://www.cs.binghamton.edu/~szhang/teaching/18spring/reports/Luo-Ma-Zhou.pdf
+[Calisi, Daniele and Nardi, Daniele. “Performance   evaluation of pure-motion tasks for mobile robots with respect to world models.” 2009]: https://www.researchgate.net/publication/200744624_Performance_evaluation_of_pure-motion_tasks_for_mobile_robots_with_respect_to_world_models
