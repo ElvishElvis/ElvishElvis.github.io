@@ -81,7 +81,7 @@ Below, an image of the A* algorithm tested in Gazebo simulator:
 Below, an image of the Interactive interface website:
 <div class="row">
   <div class="column">
-    <img src="images/interactive_interface.png" style="width:85%; height=85%">
+    <img src="images/interface_final.png" style="width:85%; height=85%">
   </div>
 </div>
 
