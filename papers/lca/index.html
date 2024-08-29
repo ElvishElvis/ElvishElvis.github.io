@@ -120,7 +120,7 @@
                 </span>
 
                 <span class="link-block">
-                  <a href="https://icml.cc/virtual/2024/session/35283" target="_blank"
+                  <a href="https://slideslive.com/39022038/lcaontheline-benchmarking-out-of-distribution-generalization-with-class-taxonomies?ref=speaker-89432" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-youtube"></i>
@@ -128,13 +128,6 @@
                     <span>Video</span>
                   </a>
                 </span>
-
-                
-
-
-
-
-
               </div>
             </div>
           </div>
@@ -147,7 +140,7 @@
   <section class="section hero is-light">
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
+        <div class="column is-full">
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
@@ -156,7 +149,7 @@
           </div>
         </div>
       </div>
-      <img src="./images/neck.png" alt="VisualGPTScore"
+      <img src="./images/neck.png" alt="why lca works"
                 style="width: 750px; height: auto; display: block; margin: 0 auto;">
     </div>
   </section>
@@ -169,31 +162,115 @@
   <section class="section hero is-light2">
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
+        <div class="column is-full">
           <h2 class="title is-3">How to calculate LCA distance</h2>
           <div class="content has-text-justified">
 
             <div class="item">
-            
-
               <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;">
-                Our method estimates a
-                model’s generalization based on its in-distribution semantic severity of mistakes. We use the ‘Lowest Common Ancestor’ (LCA)
-                distance to rank the distance between the model’s prediction and
-                the ground-truth class within a predefined taxonomic hierarchy,
-                such as WordNet. The LCA distance is proportional to the shortest
-                path from the prediction to the ground-truth class in the hierarchy.</p>
+                Our method estimates a model’s generalization based on the in-distribution semantic severity of its mistakes. We use the 'Lowest Common Ancestor' (LCA) distance to rank the distance between the model’s prediction and the ground-truth class within a predefined taxonomic hierarchy, such as WordNet. The LCA distance is proportional to the shortest path from the prediction to the ground-truth class in the hierarchy.</p>
               </p>
             </div>
           </div>
         </div>
       </div>
       <!-- Your image here -->
-      <img src="./images/lca_calculate.png" alt="VisualGPTScore Method"
+      <img src="./images/lca_calculate.png" alt="LCA distance adopted from hierarchical distance"
       style="width: 850px; height: auto; display: block; margin: 0 auto;">
     </div>
   </section>
   <!-- End Method Overview -->
+
+
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full">
+          <h2 class="title is-3"> LCA distance robustly predict models' OOD performance </h2>
+          <div class="content has-text-justified">
+
+            <div class="item">
+              <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;">
+                 We show that LCA distance, a metric measuring prediction performance with respect to an ontology/hierarchy on in-distribution (ID) data, can robustly predict the model's out-of-distribution (OOD) performance. It unifies Vision Models (VMs) and Vision-Language Models (VLMs) across different modalities and training data sources in terms of measuring model generalization, outperforming "accuracy-on-the-line."
+                 </p>
+                 <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;">
+                 The following plot shows that LCA distance consistently achieves strong linear correlation on multiple ImageNet-OOD datasets. For VMs and VLMs, ID accuracy is not on the line, while ID LCA is on the line.
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Your image here -->
+      <img src="./images/predictor.png" alt="LCA is a strong OOD indicator"
+      style="width: 850px; height: auto; display: block; margin: 0 auto;">
+    </div>
+  </section>
+
+
+  <section class="section hero is-light2">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full">
+          <h2 class="title is-3"> LCA distance suggests how to improve models' generalization </h2>
+          <div class="content has-text-justified">
+
+            <div class="item">
+              <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;">
+                 We show that LCA distance can be used as soft labels to improve models' OOD performance. The hierarchy allows exploiting class-pairwise distances in model training, and we train with cross-entropy plus soft labels loss.
+                 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Your image here -->
+      <img src="./images/improve_ood.png" alt="soft labels improve OOD"
+      style="width: 850px; height: auto; display: block; margin: 0 auto;">
+    </div>
+  </section>
+
+
+    <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full">
+          <h2 class="title is-3"> LCA distance offers insights why VLMs generalize so well </h2>
+          <div class="content has-text-justified">
+
+            <div class="item">
+              <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;">
+                  We can construct a hierarchy by clustering per-class mean features using a foundation model like CLIP. We show that using a latent hierarchy performs as well as WordNet.
+                  </p>
+                  <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;">
+                  Using soft labels from latent hierarchies generated by VLMs yields better OOD results than VMs. That said, VLMs have a better human-aligned feature distribution, i.e., their generated labels better align with human-world ontology (WordNet).
+                 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Your image here -->
+      <img src="./images/vlm_insight.png" alt="soft labels improve OOD"
+      style="width: 850px; height: auto; display: block; margin: 0 auto;">
+    </div>
+  </section>
+
+<section class="section hero is-light2">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-full">
+                <h2 class="title is-3">Conclusion:</h2>
+                <div class="content">
+                    <ul style="text-align: left; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333; list-style-type: none;">
+                        <li style="margin-bottom: 10px;">1. LCA distance robustly predicts models' OOD performance.</li>
+                        <li style="margin-bottom: 10px;">2. LCA distance suggests how to improve models' generalization.</li>
+                        <li style="margin-bottom: 10px;">3. LCA distance offers insights into why VLMs generalize so well.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
 
 
